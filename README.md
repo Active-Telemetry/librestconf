@@ -1,5 +1,6 @@
-RESTCONF (RFC8040) - a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in the Network Configuration Protocol (NETCONF).
+**RESTCONF** (RFC8040) - a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in the Network Configuration Protocol (NETCONF).
 
+```
 https://<ADDRESS>/<ROOT>/data/<[YANG MODULE:]CONTAINER>/<LEAF>[?<OPTIONS>]
   ADDRESS - Of the RESTCONF Agent
   ROOT - The main entry point for RESTCONF requests (Discoverable at https://<ADDRESS>/.well-known/host-meta)
@@ -7,6 +8,7 @@ https://<ADDRESS>/<ROOT>/data/<[YANG MODULE:]CONTAINER>/<LEAF>[?<OPTIONS>]
   [YANG MODULE:]CONTAINER - The base model container being used. Providing the module name is optional.
   LEAF - An individual element from within the container
   [?<OPTIONS>] - optional parameters that impact returned results.
+```
 
 ## Build
 ```
